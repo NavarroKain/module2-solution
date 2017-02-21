@@ -30,8 +30,8 @@ h1{
 	box-sizing: border-box;
 	padding: 30px 10px 0px 10px;
 	margin-right: 3.33%;
-	border: 3px solid #000;
-	margin-bottom: 3%;
+	border: 1px solid #000;
+	margin-bottom: 2%;
 	background-color: #999;
 }
 	.variant-item:last-child{
@@ -41,10 +41,10 @@ h1{
 .variant-item_title{
 	display: block;
 	position: absolute;
-	right: -3px;
-	top: -3px;
+	right: -1px;
+	top: -1px;
 	box-sizing: border-box;
-	border: 3px solid #000;
+	border: 1px solid #000;
 	padding: 5px 40px;
 	font-size: 1.25em;
 }
