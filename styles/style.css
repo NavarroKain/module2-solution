@@ -1,0 +1,85 @@
+body{
+	font-size: 14px;
+	font-family: 'ComicNeue-Bold', Arial, sans-serif;
+	font-weight: bold;
+}
+
+h1{
+	text-align: center;
+	font-size: 1.75em;
+}
+
+.container{
+	/*width: 100%;*/
+	/*max-width: 1200px;*/
+	text-align: center;
+	margin: 20px;
+}
+
+.variants{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+.variant-item{
+	text-align: left;
+	/*min-height: 150px;*/
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 30px 10px 0px 10px;
+	margin-right: 3.33%;
+	border: 3px solid #000;
+	margin-bottom: 3%;
+	background-color: #999;
+}
+	.variant-item:last-child{
+		margin-right: 0;
+	}
+
+.variant-item_title{
+	display: block;
+	position: absolute;
+	right: -3px;
+	top: -3px;
+	box-sizing: border-box;
+	border: 3px solid #000;
+	padding: 5px 40px;
+	font-size: 1.25em;
+}
+
+.chicken{
+	background-color: #D59898;
+}
+
+.beef{
+	background-color: #C14543;
+	color: #fff;
+}
+
+.sushi{
+	background-color: #E5D198;
+}
+
+@media only screen and (min-width:769px) and (max-width: 991px){
+	.variant-item{
+		margin-right: 0;
+	}
+	.chicken_menu, .beef_menu{
+		width: 48%;
+	}
+	.chicken_menu{
+		margin-right: 2%;
+	}
+	.sushi_menu{
+		width: 98.8%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px){
+	.variant-item{
+		width: 100%;
+	}
+}
